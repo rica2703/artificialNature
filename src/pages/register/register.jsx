@@ -2,21 +2,22 @@ import './register.css';
 import { ThemeCtx } from '../../utils/ThemeCtx';
 import Logo from '../../../public/Logo.svg';
 import Input from '../../UI/input/input';
+import IconBtn from '../../UI/IconBtn/iconBtn';
+import { CiLight } from 'react-icons/ci';
+import { CiDark } from 'react-icons/ci';
 import { useContext } from 'react';
 import { useForm } from 'react-hook-form';
 
 export default function Register() {
-    const { theme } = useContext(ThemeCtx);
+    const { theme, toggleTheme } = useContext(ThemeCtx);
     const { register, handleSubmit, formState: { errors }, watch } = useForm();
-    
-    const password = watch('password');
-
     const onSubmit = (data) => {
         console.log("Datos del formulario:", data);
     };
 
     return (
         <div className={`RegisterClass ${theme === 'light' ? 'RegisterLight' : 'RegisterDark'}`}>
+            <IconBtn onClick={toggleTheme} icon={theme === 'light' ? <CiLight /> : <CiDark />} customClass="themeCust"/>
             <img src={Logo} className='nS logo' />
             <form className='RegisterForm' onSubmit={handleSubmit(onSubmit)}>
                 <div className='formContainer'>

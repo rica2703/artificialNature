@@ -1,6 +1,9 @@
 import './login.css';
 import Input from '../../UI/input/input';
 import Logo from '../../../public/Logo.svg';
+import IconBtn from '../../UI/IconBtn/iconBtn';
+import { CiLight } from "react-icons/ci";
+import { CiDark } from "react-icons/ci";
 import { useNavigate } from 'react-router-dom';
 import { useEffect } from 'react';
 import { ThemeCtx } from '../../utils/ThemeCtx';
@@ -29,6 +32,7 @@ export default function Login() {
 
     return (
         <div className={`LoginClass ${theme === 'light' ? 'loginLight' : 'loginDark'}`}>
+            <IconBtn onClick={toggleTheme} icon={theme === 'light' ? <CiLight /> : <CiDark />} customClass="themeCust"/>
             <img src={Logo} className='nS logo' />
             <div className='Decoration'>
             </div>
@@ -77,7 +81,6 @@ export default function Login() {
                     </p>
                 </div>
             </form>
-            <button onClick={toggleTheme}>Cambiar tema</button>
         </div>
     );
 }

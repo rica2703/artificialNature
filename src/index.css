@@ -10,3 +10,9 @@
 .nS {
   user-select: none;
 }
+
+.themeCust {
+  position: absolute;
+  right: 0;
+  margin: 10px;
+}

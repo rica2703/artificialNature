@@ -1,7 +1,6 @@
 .LoginClass {
     width: 100%;
     height: 100vh;
-    transition: 1s;
 
     a {
         text-decoration: none;

@@ -12,7 +12,15 @@
     background: none;
 }
 
+.iconBtnClassLight {
+    background: none;
+}
+
+.iconBtnClassLight:hover {
+    background: #dbdbdb;
+}
+
 .iconBtnClassDark {
     background: none;
     color: #fff;
-}   
+}
