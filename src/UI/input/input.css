@@ -1,0 +1,74 @@
+input {
+    outline: none;
+}
+
+.InputClass {
+    overflow: hidden;
+    margin: 10px 0;
+
+    p {
+        padding: 4px 0;
+    }
+
+    input {
+        padding: 0 10px;
+        height: 40px;
+        width: 100%;
+        color: #515151;
+        border: none;
+    }
+}
+
+.lightInput {
+    color: black;
+    
+    .field {
+        border: 1px solid #a1a1a1;
+        .eye {
+            background: white;
+            color: #515151;
+        }
+    }
+    input {
+        color: #636363;
+    }
+}
+
+.darkInput {
+    color: white;
+
+    .field {
+        border: 1px solid #656565;
+
+        .eye {
+            background: none;
+            color: #bebebe;
+        }
+    }
+    input {
+        background: #515151;
+        color: #adadad;
+    }
+}
+
+.InputClass .field {
+    display: flex;
+    overflow: hidden;
+    border-radius: 5px;
+    transition: .1s;
+}   
+
+.InputClass .field .eye {
+    cursor: pointer;
+    width: 25px;
+    padding: 0 10px;
+    height: 100%;
+
+    display: flex;
+}
+
+.InputClass .error {
+    font-size: 13px;
+    font-weight: 100;
+    color: red;
+}

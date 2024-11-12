@@ -1,0 +1,129 @@
+.LoginClass {
+    width: 100%;
+    height: 100vh;
+    transition: 1s;
+
+    a {
+        text-decoration: none;
+    }
+
+    button:hover {
+        background: #565656;
+        color: white;
+    }
+}
+
+.loginLight {
+    background: #fff;
+
+    .LoginForm {
+        box-shadow: 0 0 5px #6cb6ff;
+
+        .formContainer {
+            button {
+                background: #000000;
+                color: white;
+            }
+
+            button:hover {
+                background: #565656;
+                color: white;
+            }
+        }
+    }
+}
+
+.loginDark {
+    background-color: #333;
+    color: white;
+
+    .LoginForm {
+        box-shadow: 0 0 5px #ffb16c;
+
+        .formContainer {
+            button {
+                background: #1e1e1e;
+                color: white;
+            }
+            
+            button:hover {
+                background: #565656;
+                color: white;
+            }
+        }
+    }
+}
+
+.logo {
+    width: 5%;
+    margin: 10px 0 0 0;
+}
+
+.LoginClass .LoginForm {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 5px;
+    width: 30%;
+    height: 80%;
+    left: 5%;
+    border-radius: 10px;
+}
+
+.formContainer {
+    width: 90%;
+    height: 90%;
+
+    .Title {
+        font-size: 26px;
+        margin: 10px 0;
+    }
+
+    .Elements {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 30%;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        a {
+            font-size: 12px;
+            text-decoration: none;
+        }
+    }
+
+    button {
+        width: 100%;
+        margin: 20px 0;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        transition: .2s;
+    }
+
+    button:hover {
+        background: #585858;
+    }
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0;
+
+    a {
+        font-size: 15px;
+        color: #8d8d8d;
+    }
+}

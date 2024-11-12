@@ -1,0 +1,10 @@
+.LateralMenuClass {
+    width: 15%;
+    height: 100%;
+    box-shadow: inset -1px 0px 0 #cacaca;
+}
+
+.LateralMenuClassDark {
+    color: #ffffff;
+    box-shadow: inset -1px 0px 0 #4a4a4a;
+}
