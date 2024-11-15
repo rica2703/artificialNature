@@ -6,6 +6,7 @@
 .RegisterClass .RegisterForm {
     position: absolute;
     left: 5%;
+    top: 10%;
     border-radius: 10px;
     width: 35%;
     padding: 20px 0 20px 0;
@@ -42,8 +43,6 @@
 
 .RegisterLight {
     .RegisterForm {
-        box-shadow: 0 0 5px #6cb6ff;
-
         select {
             border: 1px solid #a1a1a1;
         }
@@ -52,22 +51,10 @@
 
 .RegisterDark {
     .RegisterForm {
-        box-shadow: 0 0 5px #ffb16c;
-
         select {
             border: 1px solid #656565;
             background: #515151;
             color: #fff;
-        }
-        .formContainer {
-            button {
-                background: #1e1e1e;
-                color: white;
-            }
-    
-            button:hover {
-                background: #383838;
-            }
         }
     }
 }
