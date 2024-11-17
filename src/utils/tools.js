@@ -1,5 +1,5 @@
 import { jwtDecode } from "jwt-decode"
-export const endPoint = "https://26f3-189-150-49-114.ngrok-free.app"
+export const endPoint = "https://d4c2-2806-10ae-f-b24e-216f-4fd8-8e88-3321.ngrok-free.app"
 
 export const decodeToken = () => {
     const token = localStorage.getItem('token');

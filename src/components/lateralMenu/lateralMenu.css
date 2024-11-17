@@ -2,9 +2,21 @@
     width: 15%;
     height: 100%;
     box-shadow: inset -1px 0px 0 #cacaca;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .LateralMenuClassDark {
     color: #ffffff;
     box-shadow: inset -1px 0px 0 #4a4a4a;
+}
+
+.LateralMenuClass .containerInfo {
+    width: 90%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }

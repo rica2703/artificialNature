@@ -7,7 +7,7 @@ export default function VeryfyUser({ element, route = '/' }) {
 
     useEffect(() => {
         const decodeTok = decodeToken();
-        if (decodeTok.success) {
+        if (decodeTok?.success) {
             setIsAuthenticated(true);
         } else {
             setIsAuthenticated(false);
