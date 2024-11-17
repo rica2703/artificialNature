@@ -7,7 +7,9 @@ import Dashboard from './pages/dashboard/dashboard';
 import Register from './pages/register/register';
 import RecupCont from './pages/recupCont/recupCont';
 import { ThemeProvider } from './utils/ThemeCtx';
+import VerifyCode from './pages/verifyCode/verifyCode.jsx';
 import './index.css';
+import NewPassword from './pages/newPassword/newPassword.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,14 @@ const router = createBrowserRouter([
   {
     path: '/page1',
     element: <h1>Page 1</h1>,
+  },
+  {
+    path:'/verifyCode',
+    element:<VerifyCode/>
+  },
+  {
+    path:'/newPassword',
+    element:<NewPassword/>
   }
 ]);
 
