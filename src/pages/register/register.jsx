@@ -4,7 +4,7 @@ import { endPoint } from '../../utils/tools';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import Input from '../../UI/Input/Input';
-import IconBtn from '../../UI/IconBtn/iconBtn';
+import IconBtn from '../../UI/iconBtn/iconBtn';
 import { CiLight } from 'react-icons/ci';
 import { CiDark } from 'react-icons/ci';
 import { useContext } from 'react';

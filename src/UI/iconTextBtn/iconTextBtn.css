@@ -6,6 +6,7 @@
     cursor: pointer;
     border-radius: 5px;
     transition: .2s;
+    margin: 10px 0;
 
     h4 {
         height: 100%;

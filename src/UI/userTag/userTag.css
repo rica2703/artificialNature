@@ -1,0 +1,22 @@
+.UserTagClass {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+
+    p {
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .userTag {
+        width: 40px;
+        height: 40px;
+        margin: 0 5%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(255, 72, 72);
+        border-radius: 100px;
+    }
+}
