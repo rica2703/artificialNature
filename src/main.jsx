@@ -25,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: '/dashboard',
     element: <VeryfyUser element={<Dashboard />} route='/'/>,
+  }, 
+  {
+    path: '/page1',
+    element: <h1>Page 1</h1>,
   }
 ]);
 
